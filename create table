@@ -1,0 +1,19 @@
+'''
+import numpy as np
+data={
+     'name':['manoj','king','shyam'],
+      'age':['20','20','17'],
+    'city':['new york','punganur','gov'],
+
+}
+df = pd.DataFrame(data)
+print(df)
+df['location']=['kagathi','gov','none']
+print(df)
+df.loc[2,'location'] ='king'
+print(df)
+df['phone']=[123469875,789456121,12547858]
+print(df)
+df.loc[2,'phone'] =8008180635
+print(df)
+'''
